@@ -56,7 +56,7 @@ INFERNAL_Z_SCORE=$(awk "BEGIN {printf(\\"%.6f\\", $resnum*2/1000000)}") ## Since
 
 process cmscan_rfam
 {
-conda 'bioconda::hmmer'
+conda 'bioconda::infernal'
 publishDir "results/${task.process}", pattern: "", mode: 'link',overwrite:'true'
 cache 'deep'
 cpus 6
