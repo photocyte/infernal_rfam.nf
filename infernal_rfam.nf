@@ -28,7 +28,7 @@ gunzip Rfam.cm.gz
 
 process cmpress_rfam
 {
-conda 'bioconda::hmmer'
+conda 'bioconda::infernal'
 input:
  path "Rfam.cm"
 output:
