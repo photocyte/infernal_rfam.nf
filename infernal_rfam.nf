@@ -7,7 +7,7 @@
 // snoscan for snoRNAs
 // SRPscan for SRP RNA
 
-include { gt_tidysort } from 'git-submodules/nf_utility/nf_utility.nf'
+include { gt_tidysort } from './git-submodules/nf_utility/nf_utility.nf'
 
 nextflow.enable.dsl=2
 
