@@ -1,0 +1,3 @@
+[submodule "git-submodules/nf_utility"]
+	path = git-submodules/nf_utility
+	url = https://github.com/photocyte/nf_utility.git
